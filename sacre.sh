@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Introduction of Rite of Spring (I. Stravinsky, 1913).
+
+
 A=443.99
 B=498.37
 C=528
@@ -7,6 +10,8 @@ D=592.66
 E=332.62
 G=395.55
 
+
+# Bassoon solo
 beep -l 1600 -f $C -D 10 \
  -n -l 80 -f $B \
  -n -l 60 -f $C \
