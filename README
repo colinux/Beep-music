@@ -3,4 +3,4 @@ Required package : beep
 Utility scenario : let's play a melody to warn you if your battery is discharging :
 
 Install in your crontab (crontab -e) the following line :
-* *  *   *   * /bin/grep Discharging /sys/class/power_supply/BAT1/status && /bin/sh /path/to/your/beepfile/beep/sacre.sh > /dev/null
+* *  *   *   * /bin/grep Discharging /sys/class/power_supply/BAT1/status >/dev/null && /bin/sh /path/to/your/beepfile/beep/sacre.sh >/dev/null 2>&1

@@ -11,7 +11,7 @@ E=332.62
 G=395.55
 
 
-# Bassoon solo
+# Bassoon solo (feel free to improve rythm)
 beep -l 1600 -f $C -D 10 \
  -n -l 80 -f $B \
  -n -l 60 -f $C \
